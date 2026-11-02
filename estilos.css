@@ -1,0 +1,105 @@
+/* VAMOS A RESETEAR ESTILOS POR DEFECTO DEL NAVEGADOR */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. ESTILOS DEL CUERPO DE LA PÀGINA */
+body
+{
+    background-color: #f0f4f8;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* 3. CONTENEDOR PRINCIPAL - LA TARJETA */
+
+.tarjeta
+{
+    background-color: azure;
+    width: 100%;
+    max-width: 350px;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: fransform 0.3s ease;
+}
+
+.tarjeta:hover
+{
+    transform: translateY(-8px);
+}
+
+/* 4. ESTILO DE LA FOTO DE PERFIL */
+
+.foto-perfil
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 4px solid #2563eb;
+}
+
+/* 5. ESTILOS DE TEXTO */
+
+.nombre
+{
+    font-size: 1.8rem;
+    color: #1e293b;
+    margin-bottom: 8px;
+}
+
+.profesion
+{
+    font-size: 1.1rem;
+    color: #2563eb;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.descripcion
+{
+    color: #64748b;
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+/* 6. CONTENEDOR DE REDES SOCIALES */
+
+.redes 
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/* 7. ESTILOS DE CADA ENLACE */
+
+.enlace-red
+{
+    background-color: #eff6ff;
+    color: #2563eb;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.enlace-red:hover
+{
+    background-color: #2563eb;
+    color: white;
+}
+
